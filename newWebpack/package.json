@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/vekannan/webpack_setup#readme",
   "devDependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   }
