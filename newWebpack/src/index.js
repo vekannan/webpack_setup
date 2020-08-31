@@ -1,2 +1,7 @@
-const $ = require("jquery");
-$('#header').html('WebPack Setup Learning');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import FirstWebpackReact from './test/firstwebpackreact'
+
+ReactDOM.render(<FirstWebpackReact />,
+  document.getElementById('root')
+);

@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "learning webpack",
   "main": "index.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node_module/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -17,8 +21,15 @@
   },
   "homepage": "https://github.com/vekannan/webpack_setup#readme",
   "devDependencies": {
-    "jquery": "^3.4.1",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1",
+    "svg-inline-loader": "^0.8.2",
+    "jquery": "^3.5.1",
     "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   }
 }
